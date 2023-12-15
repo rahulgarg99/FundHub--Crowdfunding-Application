@@ -22,19 +22,26 @@ This repository contains the source code for the FundHub application, consisting
 * Metamask extension for your browser
 
 ## Steps
-Clone the repository:
-git clone https://github.com/rahulgarg99/FundHub--Crowdfunding-Application.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rahulgarg99/FundHub--Crowdfunding-Application.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd fundhub
+   ```
 
-Navigate to the project directory:
-cd fundhub
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Install dependencies:
-npm install
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Start the development server:
-npm run dev
-
-Access the application in your browser at http://localhost:3000.
+Access the application in your browser at `http://localhost:3000`.
 
 ## Usage
 1. Connect Metamask to your Ethereum account.
@@ -45,13 +52,13 @@ Access the application in your browser at http://localhost:3000.
 We welcome contributions from the community! To contribute to FundHub, follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (git checkout -b feature/your-feature).
-3. Make your changes and commit them (git commit -am 'Add your feature').
-4. Push to the branch (git push origin feature/your-feature).
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -am 'Add your feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a pull request explaining your changes.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/rahulgarg99/FundHub--Crowdfunding-Application/blob/main/LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 * Credits or acknowledgments to libraries, frameworks, or individuals whose code or work has been used in this project.
